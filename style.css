@@ -1,0 +1,157 @@
+body {
+    margin: 0px;
+}
+
+.topPage {
+    position: absolute;
+    background-image: url("assets/topPageImage.jpg");
+    width: 100%;
+    height:600px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.topPage a {
+    text-decoration: none;
+    color: white;
+    margin-right: 75px;
+    font-size: 18px;
+}
+
+.topPage a:hover {
+    color: grey;
+}
+
+h1 {
+    color: white;
+    font-size: 16pt;
+}
+
+h4 {
+    color: white;
+    font-size: 10pt;
+}
+
+.topPage h3 {
+    text-decoration: none;
+    color:#88F485;
+    text-align: right;
+}
+
+.topPage h6 {
+    font-size: 8pt;
+    color: white;
+}
+
+p {
+    color:#88F485;
+    text-align: center;
+    font-size: 8pt;
+    margin-top: 100px;
+
+}
+
+.topPage button {
+    height: 46px;
+    background-color: white;
+    border: 15px;
+    text-align: center;
+    color:black;
+    padding: 0px 32px;
+    font-size: 10pt;
+    border-radius: 4px;
+    font-weight: 900;
+
+}
+
+.topPage button:hover {
+    background-color: white;
+    opacity: .8;
+}
+
+.middlePage {
+    position: absolute;
+    background-image: linear-gradient(135deg, rgb(24, 35, 49), rgb(25, 36, 50));
+    width: 100%;
+    height: 150px;
+    font-family: sans-serif;
+    font-size: 12;
+    margin-top: 500px;
+}
+
+.middlePage h2 {
+    text-decoration: none;
+    color: grey;
+    text-align: left;
+    font-size: 10pt;
+    text-decoration: underline;
+    
+}
+
+.middlePage h3 {
+    text-decoration: none;
+    color:white;
+    text-align: left;
+    font-size: 14pt;
+    font-weight: 100;
+
+}
+
+.middlePage h4 {
+    text-decoration: none;
+    color:#88F485;
+    text-align: left;
+    font-size: 10pt;
+
+}
+
+.middlePage h6 {
+    color: white;
+    text-align: center;
+    font-size: 8pt;
+    margin: 8px;
+    text-decoration: underline;
+}
+.middlePage a {
+    color: white;
+}
+.middlePage a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 15px;
+    margin-top: 15px;
+    width: 100%;
+  }
+
+.middlePage button {
+    height: 46px;
+    background-color: transparent;
+    border-color: white;
+    border: px;
+    text-align: center;
+    color:white;
+    font-size: 10pt;
+    border-radius: 4px;
+    font-weight: 500;
+    margin-top: 40px;
+
+}
+
+
+.bottomPage {
+    position: absolute;
+    background-image: url("assets/bottomPageImage.jpg");
+    width: 100%;
+    margin-top: 650px;
+    padding: 10px;
+}
+
+  
+  
